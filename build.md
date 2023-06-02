@@ -1,6 +1,14 @@
-CLI: revanced-cli-2.22.0-all.jar  
-Integrations: revanced-integrations-0.109.0.apk  
-Patches: revanced-patches-2.175.0.jar  
+YouTube: 18.19.35  
+
+Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
+
+[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
+
+---
+Changelog:  
+CLI: j-hc/revanced-cli-2.22.0-all.jar  
+Integrations: revanced/revanced-integrations-0.109.0.apk  
+Patches: revanced/revanced-patches-2.175.0.jar  
 
 ### [2.175.0](https://github.com/revanced/revanced-patches/compare/v2.174.0...v2.175.0) (2023-05-31)
 ### Bug Fixes
@@ -25,10 +33,4 @@ Patches: revanced-patches-2.175.0.jar
 * **youtube/hide-shorts-components:** hide shorts info panel ([#2278](https://github.com/revanced/revanced-patches/issues/2278)) ([a5b323d](https://github.com/revanced/revanced-patches/commit/a5b323d1d9e5b175c93f0b29732eb1123b83bab7))
 * **youtube/navigation-buttons:** use a better preference screen title ([5d7772b](https://github.com/revanced/revanced-patches/commit/5d7772be942c72e05644eca3f68d2bd6b9762d26))
 
-  
-**App Versions:**  
-YouTube: 18.19.35  
-
-Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
-
-[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
+---  
