@@ -6,13 +6,11 @@ build-mindetach-module = true
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
-included-patches = "hide-ads old-quality-layout open-links-externally remember-video-quality video-ads"                                                 # space-seperated patches to include (non-excluded patches are included by default)
-version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
-exclusive-patches = true                                             # excludes all patches by default and only applies included-patches
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "ytrv-magisk"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+build-mode = "module"
+version = "auto"
+included-patches = "disable-shorts-on-startup hide-ads old-video-quality-menu open-links-externally remember-video-quality video-ads"
+exclusive-patches = true
 
 [YouTube-Extended]
 enabled = false
