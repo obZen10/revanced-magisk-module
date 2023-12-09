@@ -7,7 +7,7 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-build-mode = "apk"
+build-mode = "module"
 included-patches = "'Hide ads' 'Video ads' 'Disable resuming Shorts on startup' 'Open links externally' 'Restore old video quality menu' 'Remember video quality' 'Copy video url'"
 version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
