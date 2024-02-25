@@ -5,12 +5,6 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-build-mode = "module"
-included-patches = "'Hide ads' 'Video ads' 'Open links externally' 'Remove tracking query parameter' 'Hide floating microphone button' 'Disable suggested video end screen' 'Hide video action buttons' 'Remember video quality' 'Restore old video quality menu'"
-exclusive-patches = true
-
 [Twitter]
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 excluded-patches = "'Dynamic color'"
