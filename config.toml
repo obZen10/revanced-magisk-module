@@ -2,6 +2,8 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [Twitter]
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
-included-patches = "'Hide ads' 'Sanitize sharing links'"
-exclusive-patches = true
+excluded-patches = "'Dynamic color'"
 
+[Reddit]
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+excluded-patches = "'Unlock premium Reddit icons'"
